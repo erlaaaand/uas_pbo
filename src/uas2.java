@@ -152,7 +152,7 @@ public class uas2 extends Application {
 
         // Membuat Field Total Pembayaran
         totalPembayaranField = new TextField("TOTAL PEMBAYARAN");
-        totalPembayaranField.setEditable(true);
+        totalPembayaranField.setEditable(false);
         GridPane.setConstraints(totalPembayaranField, 0, 8, 2, 1);
 
         HBox buttonsBox = new HBox(10, hitungButton, bersihkanButton, keluarButton, rincianButton,
